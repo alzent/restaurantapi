@@ -17,4 +17,9 @@ public class RestaurantapiApplication {
 	String sayHello() {
 		return "Hello Azure 25!";
 	}
+	
+	@RequestMapping("/hello")
+	String sayHello2() {
+		return "Hello Alex!";
+	}
 }
