@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ReviewsController {
 
-	private final ImageRepository imageRepository;
-	private final ReviewsQueue reviewsQueue;
+	private ImageRepository imageRepository;
+	private ReviewsQueue reviewsQueue;
 
 	public ReviewsController(ImageRepository imageRepository, ReviewsQueue reviewsQueue) {
 		this.imageRepository = imageRepository;

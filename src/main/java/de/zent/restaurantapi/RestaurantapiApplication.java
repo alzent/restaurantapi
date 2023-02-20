@@ -6,14 +6,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
 public class RestaurantapiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RestaurantapiApplication.class, args);
-		addShutdownHook();
+		//addShutdownHook();
 	}
 
+	/*
+	
 	@RequestMapping("/")
 	String sayHello() {
 		return "Hello Azure 25!";
@@ -24,6 +25,7 @@ public class RestaurantapiApplication {
 		return "Hello Alex!";
 	}
 	
+	*/
 	
 	private static void addShutdownHook()
 	{
